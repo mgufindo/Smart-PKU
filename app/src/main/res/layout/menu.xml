@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:drawableTop="@drawable/rumahsakit"
+                android:id="@+id/rumahsakit"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Rumah Sakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:drawableTop="@drawable/restoran"
+                android:id="@+id/restoran"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Restoran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableTop="@drawable/spbu"
+                android:id="@+id/spbu"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="SPBU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:drawableTop="@drawable/supermarket"
+                android:id="@+id/supermarket"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Supermarket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableTop="@drawable/gedung"
+                android:id="@+id/gedung"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Gedung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:drawableTop="@drawable/atm"
+                android:id="@+id/atm"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="atm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@android:drawable/ic_menu_help"
+            android:id="@+id/fab"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
